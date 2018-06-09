@@ -1,20 +1,14 @@
-09:45:27.546657 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 192.168.0.2 tell 192.168.0.1, length 46
-09:45:28.561086 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 192.168.0.2 tell 192.168.0.1, length 46
-09:45:29.585272 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 192.168.0.2 tell 192.168.0.1, length 46
-09:45:33.034286 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 192.168.0.1 tell 192.168.0.4, length 28
-09:45:33.034852 ARP, Ethernet (len 6), IPv4 (len 4), Reply 192.168.0.1 is-at 08:00:27:70:cb:18 (oui Unknown), length 46
-09:45:33.104934 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 192.168.0.4 tell 192.168.0.1, length 46
-09:45:33.104968 ARP, Ethernet (len 6), IPv4 (len 4), Reply 192.168.0.4 is-at 08:00:27:b6:98:3b (oui Unknown), length 28
-09:45:42.841559 IP (tos 0x0, ttl 64, id 13237, offset 0, flags [DF], proto ICMP (1), length 84)
-    192.168.0.1 > 192.168.0.4: ICMP echo request, id 953, seq 1, length 64
-09:45:42.841620 IP (tos 0x0, ttl 64, id 6454, offset 0, flags [none], proto ICMP (1), length 84)
-    192.168.0.4 > 192.168.0.1: ICMP echo reply, id 953, seq 1, length 64
-09:45:43.844988 IP (tos 0x0, ttl 64, id 13468, offset 0, flags [DF], proto ICMP (1), length 84)
-    192.168.0.1 > 192.168.0.4: ICMP echo request, id 953, seq 2, length 64
-09:45:43.845051 IP (tos 0x0, ttl 64, id 6464, offset 0, flags [none], proto ICMP (1), length 84)
-    192.168.0.4 > 192.168.0.1: ICMP echo reply, id 953, seq 2, length 64
-09:45:44.847369 IP (tos 0x0, ttl 64, id 13515, offset 0, flags [DF], proto ICMP (1), length 84)
-    192.168.0.1 > 192.168.0.4: ICMP echo request, id 953, seq 3, length 64
-09:45:44.847420 IP (tos 0x0, ttl 64, id 6530, offset 0, flags [none], proto ICMP (1), length 84)
-    192.168.0.4 > 192.168.0.1: ICMP echo reply, id 953, seq 3, length 64
+10:24:10.485623 ARP, Request who-has 192.168.0.2 tell 192.168.0.1, length 46
+10:24:11.514446 ARP, Request who-has 192.168.0.2 tell 192.168.0.1, length 46
+10:24:12.539227 ARP, Request who-has 192.168.0.2 tell 192.168.0.1, length 46
+10:24:16.570515 ARP, Request who-has 192.168.0.4 tell 192.168.0.1, length 46
+10:24:16.570555 ARP, Reply 192.168.0.4 is-at 08:00:27:b6:98:3b (oui Unknown), length 28
+10:24:16.745967 ARP, Request who-has 192.168.0.1 tell 192.168.0.4, length 28
+10:24:16.746559 ARP, Reply 192.168.0.1 is-at 08:00:27:70:cb:18 (oui Unknown), length 46
+10:24:30.340437 IP 192.168.0.1 > 192.168.0.4: ICMP echo request, id 1044, seq 1, length 64
+10:24:30.340497 IP 192.168.0.4 > 192.168.0.1: ICMP echo reply, id 1044, seq 1, length 64
+10:24:31.343632 IP 192.168.0.1 > 192.168.0.4: ICMP echo request, id 1044, seq 2, length 64
+10:24:31.343691 IP 192.168.0.4 > 192.168.0.1: ICMP echo reply, id 1044, seq 2, length 64
+10:24:32.345493 IP 192.168.0.1 > 192.168.0.4: ICMP echo request, id 1044, seq 3, length 64
+10:24:32.345544 IP 192.168.0.4 > 192.168.0.1: ICMP echo reply, id 1044, seq 3, length 64
 
